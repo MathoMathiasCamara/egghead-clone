@@ -4,20 +4,26 @@ const GlobalStyle = createGlobalStyle`
 *{
   box-sizing:border-box;
   margin:0;
-  background: #e5e7eb;
-}
+  padding:0;
+  background: #F9FAFB;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
   font-family: 'Roboto', sans-serif;
-}
-`;
+}`;
 
 export const container = styled.div`
+  width: 100%;
   padding-left: 25px;
   padding-right: 25px;
-  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+
   background: #fff;
+  @media screen and (max-width: 968px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
 export default GlobalStyle;
