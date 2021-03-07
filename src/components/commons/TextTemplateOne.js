@@ -17,11 +17,12 @@ function TextTemplateOne({
   featuredText,
   titleText,
   fontBold,
-  hasImage,
+  hasAuthorImage,
   hasElementIcon,
   elementIcon,
   authorName,
-  authorImage
+  authorImage,
+  descriptionText
 }) {
   return (
     <>
@@ -34,9 +35,12 @@ function TextTemplateOne({
         </FeaturedText>
         <TitleText fontBold={fontBold}>{titleText}</TitleText>
         <AuthorContainer>
-          <AuthorImage hasImage={hasImage} src={authorImage} />
+          <AuthorImage hasAuthorImage={hasAuthorImage} src={authorImage} />
           <AuthorName>{authorName}</AuthorName>
         </AuthorContainer>
+        <DescriptionContainer>
+          <DescriptionText>{descriptionText}</DescriptionText>
+        </DescriptionContainer>
       </ElementsContainer>
     </>
   );

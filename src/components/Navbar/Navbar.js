@@ -9,7 +9,6 @@ import {
   SearchBarContainer,
   OptionButtonsContainer,
   ButtonCarreer,
-  ButtonSignInContainer,
   ButtonSignIn,
   IconSearch,
   IconMoon

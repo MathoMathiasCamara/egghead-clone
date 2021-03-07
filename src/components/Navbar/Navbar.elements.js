@@ -13,6 +13,8 @@ export const Nav = styled.nav`
   background: #fff;
   width: 100%;
   justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
 `;
 
 export const NavbarContainer = styled(container)`
@@ -20,9 +22,8 @@ export const NavbarContainer = styled(container)`
   display: flex;
   font-size: 1.6rem;
   align-items: center;
-  width: 100%;
-  justify-content: space-between;
-
+  justify-content: center;
+  flex: 1;
   ${container};
 `;
 
@@ -54,7 +55,6 @@ export const SearchBarContainer = styled.div`
 export const SearchBar = styled.input`
   border: 1px solid #f0f0f0;
   border-radius: 5px 0 0px 5px;
-  display: flex;
   height: 40px;
   outline: none;
   background: #f9fafb;
