@@ -31,9 +31,7 @@ function Navbar(params) {
         </SearchBarContainer>
         <OptionButtonsContainer>
           <ButtonCarreer>Carrer Planning</ButtonCarreer>
-          <ButtonSignInContainer>
-            <ButtonSignIn>Sign In</ButtonSignIn>
-          </ButtonSignInContainer>
+          <ButtonSignIn>Sign In</ButtonSignIn>
           <IconMoon />
         </OptionButtonsContainer>
       </NavbarContainer>

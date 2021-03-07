@@ -11,20 +11,19 @@ export const Nav = styled.nav`
   display: flex;
   border: 1 solid #e5e7eb;
   background: #fff;
-  padding-left: 300px;
-  padding-right: 300px;
   width: 100%;
+  justify-content: center;
 `;
 
 export const NavbarContainer = styled(container)`
   height: 60px;
   display: flex;
-  justify-content: space-between;
   font-size: 1.6rem;
   align-items: center;
   width: 100%;
+  justify-content: space-between;
 
-  ${container}
+  ${container};
 `;
 
 export const LogoContainer = styled.div`
@@ -49,21 +48,21 @@ export const SearchBarContainer = styled.div`
   background: #fff;
   padding-left: 40px;
   padding-right: 40px;
+  flex-wrap: nowrap;
 `;
 
 export const SearchBar = styled.input`
   border: 1px solid #f0f0f0;
   border-radius: 5px 0 0px 5px;
-
+  display: flex;
   height: 40px;
-  width: 300px;
   outline: none;
   background: #f9fafb;
-  display: flex;
   flex: 1;
   color: #000;
   padding-left: 60px;
   font-size: 0.9rem;
+  width: 500px;
 
   &::placeholder {
     color: #c4c9d0;
@@ -92,7 +91,6 @@ export const OptionButtonsContainer = styled.div`
   justify-content: space-between;
   font-size: 0.9rem;
   background: transparent;
-  flex-wrap: nowrap;
 `;
 
 export const ButtonCarreer = styled(Link)`
@@ -115,20 +113,25 @@ export const ButtonCarreer = styled(Link)`
 export const ButtonSignInContainer = styled.div`
   display: flex;
   align-items: center;
+
   background: transparent;
   padding-left: 5px;
   padding-right: 10px;
 `;
 
-export const ButtonSignIn = styled.a`
+export const ButtonSignIn = styled.button`
   cursor: pointer;
+  border: none;
+  display: flex;
   text-decoration: none;
   border-radius: 5px 5px 5px 5px;
   background: #fff;
-  padding-left: 15px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 20px;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+
   &:hover {
     background: #f0f0f0;
   }

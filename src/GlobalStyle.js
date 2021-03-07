@@ -12,15 +12,15 @@ const GlobalStyle = createGlobalStyle`
 
 export const container = styled.div`
   width: 100%;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
   margin-left: auto;
   margin-right: auto;
 
   background: #fff;
   @media screen and (max-width: 968px) {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-left: auto;
     margin-right: auto;
   }
